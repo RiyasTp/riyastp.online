@@ -1,8 +1,6 @@
 /*
 
-Tooplate 2115 Marvel
 
-https://www.tooplate.com/view/2115-marvel
 
 */
 
@@ -285,15 +283,15 @@ b, strong {
   right: 6px;
 }
 .color-mode-icon:after {
-  font-family: 'unicons';
-  content: '\ea9f';
+  font-family: 'FontAwesome';
+  content: '\f186';
   font-size: 30px;
   font-weight: 300;
   font-style: normal;
 }
 .color-mode-icon.active:after {
-  font-family: 'unicons';
-  content: '\eb65';
+  font-family: 'FontAwesome';
+  content: '\f185';
   font-size: 30px;
   color: #ffffff;
 }
@@ -441,16 +439,16 @@ b, strong {
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
-  font-family: 'unicons';
-  font-size: 100px;
+  font-family: 'FontAwesome';
+  font-size: 60px;
   line-height: normal;
 }
 .owl-carousel .owl-nav .owl-prev:before {
-  content: '\e833';
+  content: '\f053';
   left: -45px;
 }
 .owl-carousel .owl-nav .owl-next:before {
-  content: '\e836';
+  content: '\f054';
   right: -45px;
 }
 

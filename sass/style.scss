@@ -309,16 +309,16 @@ b, strong {
 	position: relative;
 	right: 6px;
   &:after {
-  	font-family: 'unicons';
-  	content: '\ea9f';
+  	font-family: 'FontAwesome';
+  	content: '\f0a9';
   	font-size: 30px;
   	font-weight: 300;
   	font-style: normal;
   }
   &.active {
   	&:after {
-  		font-family: 'unicons';
-  		content: '\eb65';
+  		font-family: 'FontAwesome';
+  		content: '\f0a9';
   		font-size: 30px;
   		color: $text-white;
   	}
