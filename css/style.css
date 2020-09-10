@@ -665,6 +665,11 @@ button.bton.striped-shadow:before {
   margin-left: 1rem
 }
 
+.meme img{
+  width: auto;
+  height: auto;
+}
+
 /*btn end */
 
 
@@ -756,7 +761,10 @@ button.bton.striped-shadow:before {
     margin-top: 0rem;
     margin-left: 1rem
   } */
-
+  .meme img{
+    width: 100%;
+    height: auto;
+  }
   .animated-info {
 		min-width: 320px;
 	}
