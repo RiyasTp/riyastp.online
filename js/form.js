@@ -2,16 +2,16 @@
         $("#submit-form").submit((e)=>{
             e.preventDefault()
             $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbwjY6MPK9MUjRDJdxawJl7S1FLpGLwV6a6do44/exec",
+                url:"https://script.google.com/macros/s/AKfycbx8MhqHfLSA13_9TF77lI_l5H_-9xEGAr0gXJKcSFZsq3-GQpQrCmn20jMPAU1e28E/exec",
                 data:$("#submit-form").serialize(),
                 method:"post",
                 success:function (response){
                     alert("Form submitted successfully")
                     window.location.reload()
-                    //window.location.href="https://google.com"
+                    //window.location.href="https://google.com" 
                 },
                 error:function (err){
-                    alert("Something Error")
+                    alert("Something wrong. Please try again.")
     
                 }
             })

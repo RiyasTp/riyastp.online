@@ -510,6 +510,15 @@ b, strong {
   background: #474559;
 }
 
+input:invalid {
+  border: 1px solid red;
+}
+
+
+/* input:valid {
+  border: 2px solid black;
+}  */
+
 .contact-info {
   background: #474559;
   border-radius: 0 0 3px 3px;
