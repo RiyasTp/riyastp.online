@@ -1,3 +1,6 @@
+var owlDot = document.querySelectorAll(".owl-dot") 
+console.log(owlDot); 
+
 (function ($) {
 
   "use strict";
