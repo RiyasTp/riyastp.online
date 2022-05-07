@@ -2,10 +2,6 @@ const nameEl = document.querySelector('#name');
 const emailEl = document.querySelector('#email');
 const form = document.querySelector('#submit-form');
 
-console.log(nameEl)
-console.log(emailEl)
-console.log(form)
-
 const checkName = () => {
 
     let valid = false;
@@ -43,7 +39,6 @@ const isEmailValid = (email) => {
 
 
 const isRequired = value => value === '' ? false : true;
-
 
 const showError = (message) => {
     alert(message);
